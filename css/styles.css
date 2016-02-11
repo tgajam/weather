@@ -22,7 +22,7 @@ header {
 }
 
 .cloudy {
-    background-image: url("blue-sky.jpg");
+    background-image: url("../images/blue-sky.jpg");
 }
 
 .weatherbox {
