@@ -1,0 +1,57 @@
+header {
+    padding: 10px 10px;
+    margin: 0px 0px;
+    font-size: 100px;
+    text-align: center;
+    background-color: deepskyblue;
+    color: azure;
+    text-shadow: 2px 2px 2px;
+}
+
+.cloudy {
+    background-image: url("blue-sky.jpg");
+}
+
+.weatherbox {
+    display: block;
+    margin: 80px auto;
+    width: 230px;
+    height: 250px;
+    padding: 20px 10px;
+    color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.weatherbox .city {
+    display: block;
+    font-size: 30px;
+    text-align: center
+}
+
+.weatherbox .temp {
+    font-size: 80px;
+}
+
+.weatherbox .temp sup {
+    font-size: 40px;
+}
+
+.weatherbox .condition {
+    font-size: 18px;
+}
+
+.weatherbox .temp sub {
+    font-size: 15px;
+}
+
+footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0px 0px;
+    text-align: center;
+    font-style: italic;
+    background-color: deepskyblue;
+    color: azure;
+}
